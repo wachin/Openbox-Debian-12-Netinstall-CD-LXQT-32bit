@@ -23,24 +23,19 @@ pulseaudio --start &
 # Internet
 nm-applet &
 
-# Iniciar polkit (autenticación KDE) para programas que necesitan aumentar los permisos, como synaptic, Discover, Muon, etc
-# Para 64 bit:
-/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
-
-
-# Iniciar agente de autenticación para PolicyKit Gnome, lo usa MX Linux 21, 23
-#/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+# Iniciar lxqt-policykit (autenticación LXQT) para programas que necesitan aumentar los permisos, como synaptic, Discover, Muon, etc
+/usr/bin/lxqt-policykit-agent &
 
 # Iniciar programas como aplicaciones KDE (kate, dolphin, konsole)
-kate &
-dolphin &
-konsole &
+#kate &
+#dolphin &
+#konsole &
+pcmanfm-qt &
 
 # Otros programas (en este caso, algunos comentados)
 
 # Navegadores Web:
-# /usr/bin/google-chrome-stable &
-firefox &
+firefox-esr &
 
 # Activador de las teclas numeral de los teclados:
 numlockx &
