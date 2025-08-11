@@ -5,11 +5,14 @@ Estos son los pasos para dejar utilizable a LXQT instalado desde Netinstall CD, 
 Cómo instalar Debian NetInstall CD
 https://github.com/wachin/Como-instalar-Debian-12-NetInstall-CD 
 
-y las siguientes son las dependencias necesarias:
+y allí en la instalación seleccionar sólo LXQT y las herramientas de Debian nada más
+
+y después que se haya instalado Debian Netinstall CD las siguientes son las dependencias necesarias:
 
 ## **2. Instalar Openbox y herramientas necesarias**
 
-1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias:
+1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias    
+
 ```bash
 sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
@@ -18,10 +21,13 @@ sudo apt install git tint2 picom xfce4-notifyd cbatticon \
 ```
 
 
-si usas Debian o alguna de sus distribuciones y no tenga el repositorio de MX Linux lo puedes instalar siguiendo [estos pasos](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html) para poder instalar esos paquetes.
+ ## Instala el repositorio de MX Linux
+ 
+Instala el repositorio de MX Linux  siguiendo los siguientes pasos:
 
-Si usas MX Linux también puedes instalar los siguientes paquetes que están en sus repositorios:
+[Cómo añadir el repositorio de MX Linux en Debian](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html) 
 
+e instala estos pasus repositorios:
 
 ```bash
 sudo apt install obkey obmenu2
