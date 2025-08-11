@@ -58,12 +58,14 @@ sudo apt install picom
    - `cbatticon`: Icono de estado de batería ligero y rápido, y más
 
 2. Descarga y configura los archivos de Openbox ejecutando:
+
 ```bash
-git clone https://github.com/wachin/openbox-kde-session-MX-Linux-KDE-23/ ~/.config/openbox
+git clone https://github.com/wachin/Openbox-Debian-12-Netinstall-CD-LXQT-32bit ~/.config/openbox
 ```
 
 3. Instalar mi configuración personalizada de tint2 (OPCIONAL)
 Si deseas usar el panel tint2 como yo lo tengo configurado sólo haz esto:
+
 ```bash
 git clone https://github.com/wachin/tint2 ~/.config/tint2
 ```
@@ -72,24 +74,22 @@ Cierra la **sesión** o **reinicia** tu computadora.
 
 4. En la pantalla de inicio de sesión, selecciona **Openbox** como tu entorno de escritorio y accede con tu usuario.
 
----
-
 ## **3. Configuración inicial de Openbox**
 
 ### **3.1. Configurar atajos de teclado con obkey**
 
 - Para personalizar los atajos de teclado en Openbox, abre una terminal y ejecuta:
-  ```bash
-  obkey
-  ```
-- Esto abrirá una ventana donde puedes:
+
+```bash
+obkey
+```
+
+  - Esto abrirá una ventana donde puedes:
   - Agregar nuevos atajos.
   - Modificar los existentes.
   - Eliminar los que no necesites.
 
 Guarda los cambios al terminar y ciérralo.
-
----
 
 ## **4. Configuración de programas al inicio**
 
@@ -105,22 +105,20 @@ El archivo `~/.config/openbox/autostart` controla los programas que se ejecutan 
 
 Si deseas modificar los programas que se inician con Openbox, edita el archivo `autostart` y agrega o elimina procesos según tus necesidades.
 
----
-
 ## **5. Configurar un fondo de pantalla con Nitrogen**
 
 1. Abre **Nitrogen** desde el menú de aplicaciones.
 2. Haz clic en **Preferences** y luego en **+ Add**.
 3. En la ventana emergente, navega hasta el directorio:
-   ```
-   /usr/share/wallpapers/
-   ```
+
+```
+/usr/share/wallpapers/
+```
+
 4. Selecciona la carpeta y haz clic en **Seleccionar** y luego en **OK**.
 5. Elige un fondo de pantalla de la lista que aparece.
 6. Da clic a la izquierda en "Automatic" y selecciona "Scaled" para que la imagen ocupe toda la pantalla.
 7. Haz clic en **Apply** para aplicarlo y luego cierra Nitrogen.
-
----
 
 ## **6. Recursos adicionales**
 
@@ -131,8 +129,6 @@ Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes 
 
 - **Wiki de Openbox en Arch Linux**:  
   [https://wiki.archlinux.org/title/Openbox](https://wiki.archlinux.org/title/Openbox)
-
----
 
 ## **7. Consideraciones finales**
 
@@ -145,8 +141,6 @@ Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes 
 
 ## 8. Usa un tema de iconos como papirus-icon-theme
 Este tema de iconos funciona bien con openbox, debería estar instalado en tu Linux por defecto
-
----
 
 Dios te bendiga
 
