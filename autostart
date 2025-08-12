@@ -27,10 +27,10 @@ nm-applet &
 /usr/bin/lxqt-policykit-agent &
 
 # Iniciar programas como aplicaciones KDE (kate, dolphin, konsole)
-#kate &
-#dolphin &
-#konsole &
-pcmanfm-qt &
+kate &
+dolphin &
+konsole &
+#pcmanfm-qt &
 
 # Otros programas (en este caso, algunos comentados)
 
@@ -47,7 +47,7 @@ ksnip &
 tint2 &
 
 # Compositor
-picom &
+# picom &
 
 # Si tienes un teclado Logitech Pebble Keys necesitarás este programa
 #solaar --window=hide

@@ -17,7 +17,7 @@ y después que se haya instalado Debian Netinstall CD las siguientes son las dep
 sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
     numlockx nitrogen obconf lxsession-logout \
-    xfce4-notes qt5ct papirus-icon-theme
+    qt5ct papirus-icon-theme
 ```
 
 
@@ -27,10 +27,10 @@ Instala el repositorio de MX Linux  siguiendo los siguientes pasos:
 
 [Cómo añadir el repositorio de MX Linux en Debian](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html) 
 
-e instala estos paquetes repositorios:
+e instala estos paquetes de ese repositorio:
 
 ```bash
-sudo apt install obkey obmenu2
+sudo apt install obkey obmenu2 xfce4-notes
 ```
 
 Paquete opcional
@@ -56,6 +56,7 @@ sudo apt install picom
    - `obconf`: Herramienta para configurar Openbox mediante una interfaz gráfica.
    - `lxsession-logout`: Utilidad para cerrar sesión, apagar o reiniciar el sistema desde Openbox, debe añadirla al panel tint2, abajo dejo un enlace a un tutorial.
    - `cbatticon`: Icono de estado de batería ligero y rápido, y más
+   - `xfce4-notes`: Bloque de notas
 
 2. Descarga y configura los archivos de Openbox ejecutando:
 
