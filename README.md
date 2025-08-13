@@ -16,7 +16,7 @@ y después que se haya instalado Debian Netinstall CD las siguientes son las dep
 ```bash
 sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
-    numlockx nitrogen obconf lxsession-logout \
+    numlockx nitrogen obconf lxsession-logout lxtask \
     qt5ct papirus-icon-theme xfce4-appfinder
 ```
 
