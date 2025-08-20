@@ -23,6 +23,9 @@ pulseaudio --start &
 # Internet
 nm-applet &
 
+# Teclado virtual 
+xvkbd &
+
 # Iniciar lxqt-policykit (autenticación LXQT) para programas que necesitan aumentar los permisos, como synaptic, Discover, Muon, etc
 /usr/bin/lxqt-policykit-agent &
 
